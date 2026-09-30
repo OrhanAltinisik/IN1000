@@ -35,3 +35,7 @@ tall = int(tekst)
 print(tall + 1)   # 124
 
 print("-" * 80)
+print("\033[31mThis text is red!\033[0m")
+print("\x1b[1m\x1b[32mBold green text!\x1b[0m")
+print("\u001b[4mThis is underline\u001b[0m")
+print("hey")
