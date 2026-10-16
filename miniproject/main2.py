@@ -3,6 +3,7 @@ def add_task(tasks):
     tasks.append(add)
 
 def show_task(tasks):
+    print("Tasks:")
     number = 1
     for task in tasks:
         print(str(number) + "." + task)
@@ -21,7 +22,7 @@ def main():
     tasks = []
     while True:
         print("1 = add", "2 = show", "3 = remove", "4 = quit")
-        choice = input("choice:")
+        choice = int(input("choice:"))
         if choice == 1:
             add_task(tasks)
         elif choice == 2:
