@@ -25,11 +25,11 @@ def main():
         choice = int(input("Choice:"))
         if choice == 1:
             add_contact(contacts)
-        if choice == 2:
+        elif choice == 2:
             find_contact(contacts)
-        if choice == 3:
+        elif choice == 3:
             remove_contact(contacts)
-        if choice == 4:
+        elif choice == 4:
             break
         else:
             print("WRONG NUMBER")

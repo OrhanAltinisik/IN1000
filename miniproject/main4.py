@@ -13,7 +13,7 @@ class Account:
     def withdraw(self, amount):
         if amount <= self.balance:
             self.balance -= amount
-            print(self.owner + " has withdraw " + str(amount) + " kr")
+            print(self.owner + " has withdrawn " + str(amount) + " kr")
         else:
             print("Not enough money")
 
