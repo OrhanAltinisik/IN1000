@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from SEIR0 import SEIR0, solve_SEIR
+from Seir0 import SEIR0, solve_SEIR
 
 
 class SEIR(SEIR0):

@@ -1,5 +1,5 @@
-from SEIR import SEIR, solve_SEIR, plot_SEIR
-from lockdown import Beta
+from Seir import SEIR, solve_SEIR, plot_SEIR
+from Lockdown import Beta
 
 
 class SEIRimport(SEIR):

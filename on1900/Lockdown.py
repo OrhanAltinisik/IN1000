@@ -2,7 +2,7 @@ import re
 import numpy as np
 import matplotlib.pyplot as plt
 from datetime import date, timedelta
-from outbreak import R_to_beta
+from Outbreak import R_to_beta
 
 
 class Beta:
@@ -79,7 +79,7 @@ def test_Beta():
 
 
 if __name__ == "__main__":
-    from SEIR import SEIR, solve_SEIR, plot_SEIR
+    from Seir import SEIR, solve_SEIR, plot_SEIR
     test_Beta()
     beta = Beta('r_values.txt')
     beta.plot(600)

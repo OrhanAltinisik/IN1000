@@ -1,4 +1,4 @@
-from SEIR import SEIR, solve_SEIR, plot_SEIR
+from Seir import SEIR, solve_SEIR, plot_SEIR
 
 
 def R_to_beta(R, r_ia=0.1, r_e2=1.25, lmbda_2=0.5, p_a=0.4, mu=0.2):
